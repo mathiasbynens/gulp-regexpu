@@ -1,0 +1,53 @@
+{
+	"name": "gulp-regexpu",
+	"version": "0.0.0",
+	"description": "Gulp plugin that transpiles ES6 Unicode regular expressions to ES5.",
+	"homepage": "http://mths.be/gulp-regexpu",
+	"main": "index.js",
+	"keywords": [
+		"codegen",
+		"desugaring",
+		"ecmascript",
+		"es5",
+		"es6",
+		"gulpplugin",
+		"harmony",
+		"javascript",
+		"refactoring",
+		"regex",
+		"regexp",
+		"regexpu",
+		"regular expressions",
+		"rewriting",
+		"syntax",
+		"transformation",
+		"transpile",
+		"transpiler",
+		"unicode"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Mathias Bynens",
+		"url": "https://mathiasbynens.be/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mathiasbynens/gulp-regexpu.git"
+	},
+	"bugs": "https://github.com/mathiasbynens/gulp-regexpu/issues",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"test": "mocha"
+	},
+	"dependencies": {
+		"gulp-util": "^3.0.0",
+		"regexpu": "^0.1.0",
+		"through2": "^0.5.1",
+		"vinyl-sourcemaps-apply": "^0.1.1"
+	},
+	"devDependencies": {
+		"mocha": "^1.21.4"
+	}
+}
