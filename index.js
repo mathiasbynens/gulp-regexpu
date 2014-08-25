@@ -6,23 +6,21 @@ var through = require('through2');
 module.exports = function() {
 	return through.obj(function(file, encoding, callback) {
 		if (file.isNull()) {
-			this.push(file);
-			return callback();
+			callback(null, file);
+			return;
 		}
 
 		if (file.isStream()) {
-			this.emit('error', new gutil.PluginError(
+			callback(new gutil.PluginError(
 				'gulp-regexpu',
 				'Streaming not supported'
 			));
-			return callback();
+			return;
 		}
 
 		var options = {};
 		var needsSourceMap = file.sourceMap;
 		if (needsSourceMap) {
-			// TODO: Is this right? Shouldn’t the file names be different?
-			// https://github.com/floridoo/gulp-sourcemaps/issues/25
 			options.sourceFileName = options.sourceMapName = file.relative;
 		}
 
@@ -32,15 +30,14 @@ module.exports = function() {
 			if (result.map && needsSourceMap) {
 				applySourceMap(file, result.map);
 			}
+			callback(null, file);
 		} catch (exception) {
-			this.emit('error', new gutil.PluginError(
+			callback(new gutil.PluginError(
 				'gulp-regexpu', exception, {
 					'fileName': file.path
-				})
-			);
+				}
+			));
 		}
 
-		this.push(file);
-		callback();
 	});
 };
