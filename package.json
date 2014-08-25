@@ -1,6 +1,6 @@
 {
 	"name": "gulp-regexpu",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Gulp plugin that transpiles ES6 Unicode regular expressions to ES5.",
 	"homepage": "http://mths.be/gulp-regexpu",
 	"main": "index.js",
