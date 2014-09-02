@@ -2,7 +2,7 @@
 	"name": "gulp-regexpu",
 	"version": "0.1.2",
 	"description": "Gulp plugin that transpiles ES6 Unicode regular expressions to ES5.",
-	"homepage": "http://mths.be/gulp-regexpu",
+	"homepage": "https://mths.be/gulp-regexpu",
 	"main": "index.js",
 	"keywords": [
 		"codegen",
@@ -42,13 +42,13 @@
 		"test": "mocha"
 	},
 	"dependencies": {
-		"gulp-util": "^3.0.0",
-		"regexpu": "^0.1.1",
-		"through2": "^0.5.1",
+		"gulp-util": "^3.0.1",
+		"regexpu": "^0.2.1",
+		"through2": "^0.6.1",
 		"vinyl-sourcemaps-apply": "^0.1.1"
 	},
 	"devDependencies": {
-		"gulp-sourcemaps": "^1.1.1",
+		"gulp-sourcemaps": "^1.1.4",
 		"mocha": "^1.21.4"
 	}
 }

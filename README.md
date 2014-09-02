@@ -1,6 +1,6 @@
 # gulp-regexpu [![Build status](https://travis-ci.org/mathiasbynens/gulp-regexpu.svg?branch=master)](https://travis-ci.org/mathiasbynens/gulp-regexpu) [![Dependency status](https://gemnasium.com/mathiasbynens/gulp-regexpu.svg)](https://gemnasium.com/mathiasbynens/gulp-regexpu)
 
-gulp-regexpu is a [Gulp](http://gulpjs.com/) plugin to transpile ES6 Unicode regular expressions to ES5 with [_regexpu_](http://mths.be/regexpu).
+gulp-regexpu is a [Gulp](http://gulpjs.com/) plugin to transpile ES6 Unicode regular expressions to ES5 with [_regexpu_](https://mths.be/regexpu).
 
 *Issues with the output should be reported on [the _regexpu_ issue tracker](https://github.com/mathiasbynens/regexpu/issues).*
 
@@ -55,4 +55,4 @@ Thanks to [Sindre Sorhus](https://github.com/sindresorhus), whose many great exa
 
 ## License
 
-_gulp-regexpu_ is available under the [MIT](http://mths.be/mit) license.
+_gulp-regexpu_ is available under the [MIT](https://mths.be/mit) license.
