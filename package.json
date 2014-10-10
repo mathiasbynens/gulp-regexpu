@@ -43,12 +43,12 @@
 	},
 	"dependencies": {
 		"gulp-util": "^3.0.1",
-		"regexpu": "^0.2.1",
-		"through2": "^0.6.1",
-		"vinyl-sourcemaps-apply": "^0.1.1"
+		"regexpu": "^0.3.0",
+		"through2": "^0.6.3",
+		"vinyl-sourcemaps-apply": "^0.1.4"
 	},
 	"devDependencies": {
-		"gulp-sourcemaps": "^1.1.4",
+		"gulp-sourcemaps": "^1.2.3",
 		"mocha": "^1.21.4"
 	}
 }
