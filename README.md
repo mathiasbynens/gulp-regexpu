@@ -4,6 +4,8 @@ gulp-regexpu is a [Gulp](http://gulpjs.com/) plugin to transpile ES6 Unicode reg
 
 *Issues with the output should be reported on [the _regexpu_ issue tracker](https://github.com/mathiasbynens/regexpu/issues).*
 
+**Note:** You may want to use [gulp-traceur](https://github.com/sindresorhus/gulp-traceur) instead, as it supports [_regexpu_](https://mths.be/regexpu) transpilation as well as many other ES6 features.
+
 ## Install
 
 ```bash
